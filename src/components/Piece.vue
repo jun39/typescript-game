@@ -7,8 +7,6 @@
 
     @Component
     export default class Piece extends Vue{
-        @Prop()
-        public move?: string;
 
     }
 </script>

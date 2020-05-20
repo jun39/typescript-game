@@ -1,16 +1,10 @@
 <template>
     <table>
         <tr>
-            <td><Piece></Piece></td>
-            <td><Piece></Piece></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td><Piece></Piece></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>!win</td>
+            <td>!win</td>
+            <td>!win</td>
+            <td>!win</td>
         </tr>
         <tr>
             <td></td>
@@ -47,6 +41,12 @@
             <td></td>
             <td></td>
             <td></td>
+        </tr>
+        <tr>
+            <td>!win</td>
+            <td>!win</td>
+            <td>!win</td>
+            <td>!win</td>
         </tr>
     </table>
 </template>

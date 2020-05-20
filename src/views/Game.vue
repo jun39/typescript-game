@@ -1,7 +1,6 @@
 <template>
   <div class="game">
      <Board></Board>
-     <Piece></Piece>
   </div>
 </template>
 
