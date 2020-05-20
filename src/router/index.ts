@@ -22,6 +22,11 @@ Vue.use(VueRouter)
     path:'/start',
     name:'Start',
     component: () => import(/* webpackChunkName: "about" */ '../views/Start.vue')
+  },
+  {
+    path:'/game',
+    name:'Game',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Start.vue')
   }
 ]
 

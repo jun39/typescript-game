@@ -51,9 +51,14 @@
     </table>
 </template>
 <script>
-import { Component, Prop, Vue } from 'vue-property-decorator';
-@Component
+import { Component, Prop, Vue } from 'vue-property-decorator'
+import Piece from './Piece.vue'
+
+@Component({
+  components: {
+    Piece,
+  }
+})
 export default class Board extends Vue{
-  
 }
 </script>
