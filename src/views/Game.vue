@@ -6,13 +6,16 @@
 
 <script>
 // @ is an alias to /src
+import { Component, Vue } from 'vue-property-decorator';
 import Board from '@/components/Board.vue'
 import Piece from '@/components/Piece.vue';
-export default {
-  name: 'Game',
-  components: {
-    Board,
-    Piece,
-  }
+
+@Component({
+        components: {
+        Board,
+        Piece,
+        },
+    })
+export default class Game extends Vue{
 }
 </script>

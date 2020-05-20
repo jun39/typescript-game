@@ -7,6 +7,7 @@
 
     @Component
     export default class Piece extends Vue{
-
+        @Prop()
+        public power!: number;
     }
 </script>
