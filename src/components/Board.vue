@@ -1,13 +1,13 @@
 <template>
     <table>
         <tr>
-            <td></td>
-            <td></td>
+            <td><Piece></Piece></td>
+            <td><Piece></Piece></td>
             <td></td>
             <td></td>
         </tr>
         <tr>
-            <td></td>
+            <td><Piece></Piece></td>
             <td></td>
             <td></td>
             <td></td>

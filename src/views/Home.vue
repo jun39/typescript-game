@@ -2,7 +2,6 @@
   <div class="home">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <MyButton></MyButton>
-    <Board></Board>
   </div>
 </template>
 

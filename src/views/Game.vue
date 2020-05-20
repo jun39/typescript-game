@@ -1,6 +1,5 @@
 <template>
   <div class="game">
-     <h1>スタート画面</h1>
      <Board></Board>
      <Piece></Piece>
   </div>

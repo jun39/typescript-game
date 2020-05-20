@@ -26,7 +26,7 @@ Vue.use(VueRouter)
   {
     path:'/game',
     name:'Game',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Start.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/Game.vue')
   }
 ]
 
