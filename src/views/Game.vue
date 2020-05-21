@@ -20,7 +20,8 @@ import Set from '@/components/Set.vue';
         Set
         },
     })
+
 export default class Game extends Vue{
-  public 
+
 }
 </script>

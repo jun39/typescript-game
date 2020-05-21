@@ -62,5 +62,6 @@ import Set from './Set.vue'
   }
 })
 export default class Board extends Vue{
+
 }
 </script>

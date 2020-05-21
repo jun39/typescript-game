@@ -29,6 +29,9 @@
         Piece,
     }
     })
+
+
+    // Setの終了はこっちで制御
     export default class Set extends Vue{
     }
 </script>
