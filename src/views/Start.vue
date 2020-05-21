@@ -8,9 +8,9 @@
 
 <script>
 // @ is an alias to /src
-export default {
-  name: 'Start',
-  components: {
-  }
+import { Component, Vue } from 'vue-property-decorator';
+
+export default class Start extends Vue{
+
 }
 </script>

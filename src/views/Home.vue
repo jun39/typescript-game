@@ -7,16 +7,20 @@
 
 <script>
 // @ is an alias to /src
+import { Component, Vue } from 'vue-property-decorator';
 import HelloWorld from '@/components/HelloWorld.vue'
 import MyButton from '@/components/MyButton.vue'
 import Board from '@/components/Board.vue'
 import Piece from '@/components/Piece.vue';
-export default {
-  name: 'Home',
-  components: {
-    HelloWorld,
-    MyButton,
-    Board
-  }
+@Component({
+  components:{
+  HelloWorld,
+  MyButton,
+  Board,
+  Piece,
+  },
+})
+export default class Home extends Vue{
+
 }
 </script>

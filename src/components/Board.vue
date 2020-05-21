@@ -1,5 +1,6 @@
 <template>
-    <table>
+    
+    <table border="1">
         <tr>
             <td>!win</td>
             <td>!win</td>
@@ -7,7 +8,7 @@
             <td>!win</td>
         </tr>
         <tr>
-            <td></td>
+            <td><Piece power="30"></Piece></td>
             <td></td>
             <td></td>
             <td></td>
