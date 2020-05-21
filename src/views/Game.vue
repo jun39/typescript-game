@@ -22,6 +22,13 @@ import Set from '@/components/Set.vue';
     })
 
 export default class Game extends Vue{
+  public judgeWin(params) {
+    
+  }
+
+  public judgeTurn(){
+    
+  }
 
 }
 </script>

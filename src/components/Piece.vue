@@ -9,6 +9,7 @@
     export default class Piece extends Vue{
         @Prop()
         public power!: number;
+        public move!:array
         // コマの制御はこっちで移動、
     }
 </script>

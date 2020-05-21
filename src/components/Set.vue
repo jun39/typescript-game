@@ -22,7 +22,7 @@
 </template>
 
 <script lang="ts">
-    import {Component,Prop,Vue} from "vue-property-decorator";
+    import {Component,Prop,Vue,Emit} from "vue-property-decorator";
     import Piece from './Piece.vue'
     @Component({
         components: {
@@ -33,5 +33,6 @@
 
     // Setの終了はこっちで制御
     export default class Set extends Vue{
+        
     }
 </script>
